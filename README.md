@@ -1,1 +1,1 @@
-# WebTasarimKampiBoostrapOdevi
+# WebTasarimKampiBootstrapOdevi
