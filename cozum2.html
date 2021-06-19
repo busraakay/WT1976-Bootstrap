@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Template Odevi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-sm">
+    <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded mt-4">
+        <a class="navbar-brand" href="#">Ödev</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarIcerik">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarIcerik">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Hakkında</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">İletişim</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Kayıt Ol</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Giriş</a>
+                </li>
+            </ul>
+            <form class="form-inline ">
+                <input class="form-control rounded-0" type="text" placeholder="Ara..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                <button class="btn btn-secondary rounded-0" type="button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    </header>
+
+    <main>
+      
+            <div class="row">
+                
+                <div class="col-md-8 mt-4">
+                    
+                    <div class="jumbotron jumbotron-fluid rounded-lg">
+                        <div class="container">
+                          <h1 >Web Kampı - Bootstrap 4</h1>
+                          <p class="lead">Bootstrap ile şık, modern ve güzel arayüzler geliştiriyorum.</p>
+                        </div>
+                      </div>
+                      <div id="resimler" class="carousel slide carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#resimler" data-slide-to="0" class="active"></li>
+                            <li data-target="#resimler" data-slide-to="1"></li>
+                            <li data-target="#resimler" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slider1.jpg" alt="photo" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Dağ ve Bulut</h5>
+                                    <p>Ben bir dağım varlığın ise bir bulut uzaktan bakınca çok yakınız.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider2.jpg" alt="photo" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sonbahar</h5>
+                                    <p>Hayat, sonbahardaki çıtırdayan yapraklardan sonra yeniden başlar.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider3.jpg" alt="photo" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Köprü</h5>
+                                    <p>Gizemli bir köprü, başı nerede bilinmiyor. Köprünün sonunda sizi ne beklediği tamamen muamma.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#resimler" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Önceki</span>
+                        </a>
+                        <a class="carousel-control-next" href="#resimler" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Sonraki</span>
+                        </a>
+                    </div>
+
+                   
+                        <div class="container">
+                            <div class="row mt-4">
+                                <div class="col-sm-4 bg-light" style="background-color:gray; text-align: center;"><br/><i class="fas fa-palette fa-5x" style="color: teal; "></i><h5><br/>Zengin Temalar</h5><p>Ücretli ve ücretsiz birçok tema ve bileşenler</p></div>
+                                <div class="col-sm-4 bg-light" style="background-color:gray; text-align: center;"><br/><i class="fas fa-desktop fa-5x" style="color:seagreen"></i><h5><br/>Responsive Tasarım</h5><p>Mobil uyumlu özelleştirilebilir arayüz</p></div>
+                                <div class="col-sm-4 bg-light" style="background-color:gray; text-align: center;"><br/><i class="fab fa-connectdevelop fa-5x" style="color:orange"></i><h5><br/>Hızlı Tasarım</h5><p>İhtiyacına uygun kullanımı kolay bileşeneler</p></div>
+                              </div>
+                            </div>
+                        
+                </div>
+                <div class="col-lg-4 mt-4">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-sign-in-alt py-2" style="float:right;"></i>
+                            <h5>Üye Girişi</h5>
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="parola">Parola</label>
+                                    <input type="password" id="parola" name="parola" class="form-control" required>
+                                </div>
+                                <div class="form-group ">
+                                    <input type="checkbox" id="hatirla" name="hatirla" >
+                                    <label for="hatirla" class="form-check-label">Beni hatırla</label>
+                                </div>
+                                <button class="btn btn-primary btn-block">Giriş Yap</button>
+                            </form>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="card mt-4" >
+                        <div class="card-header">
+                            <i class="fas fa-bars float-sm-right py-2"  style="float:right;"></i>
+                            <h5>Menü</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <i class="fas fa-home py-1 mr-sm-2"  style="float:left;"></i>
+                              Anasayfa
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-code py-1 mr-sm-2"  style="float:left;"></i>
+                                  Örnekler
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-cubes py-1 mr-sm-2"  style="float:left;"></i>
+                                  Bileşenler
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-paint-roller py-1 mr-sm-2"  style="float:left;"></i>
+                                  Temalar
+                                  <a href="#" class="btn btn-link text-dark  float-right" >
+                                   <span class="badge badge-danger badge-pill">YENİ!</span>
+                                </a>
+                            </li>
+                          
+                        
+                        </ul>
+                      </div>
+                    
+
+                      <div class="card mt-4 mb-5">
+                        <div class="card-header">
+                            <i class="fas fa-paint-brush py-2" style="float:right;"></i>
+                          <h5>Öne Çıkan Temalar</h5>
+
+                          
+                        </div>
+                        <div class="card-body ">
+                          <blockquote class="blockquote ">
+                            <div class="container">
+                                <div class="row">
+                                    <img src="img/oneCikan1.jpg" alt="photo" class="col-md-6  shadow px-2 rounded">
+                          <img src="img/oneCikan2.jpg" alt="photo" class="col-md-6 shadow px-2 rounded">
+                          </div>
+                          </div>  
+                          </blockquote>
+                        </div>
+                      </div>
+                    
+                </div>
+            </div>
+        
+    </main>
+</div>
+    <footer class="bg-light p-1 text-dark">
+        
+        <p class=" mt-4 text-center">
+            Her hakkı saklıdır © 2021
+        </p>
+    </footer>
+
+
+
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
